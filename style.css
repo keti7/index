@@ -6,13 +6,13 @@ h1 {
   p {
     color:black;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 100;
     background-color: bisque;
     height: 20px;
+    margin: 10px;
   }
   .rectangle-image {
     height: 400px;
-    width: 800px;
   }
   .rectangle-png {
     height: 150px;
@@ -20,22 +20,64 @@ h1 {
   }
   ul {
     list-style:none ;
-    margin: 20px;
+    margin: 0px;
   }
   li {
-    background-color:blue;
     padding-bottom: 20px;
-    border-top-width: 3px;
-    border-left-width: 3px;
-    border-top-color: blueviolet;
-    border-right-style: solid;
-    border-color: blueviolet;
-    margin: 30px;
+    border-top-width: 20px;
+    border-left-width: 20px;
+    margin: 0px;
   }
   section{
-    margin: 40px;
+    margin: 100px;
   }
   h2 {
     background-color: white;
   }
- 
+main{
+    margin: 100px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  .left {
+    float: left;
+    text-align: right; 
+    width: 50%; 
+  }
+  
+  .right {
+    float: left;
+    text-align: left;
+    width: 50%;
+  }
+  
+  form {
+    margin-top: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+  }
+  
+  
